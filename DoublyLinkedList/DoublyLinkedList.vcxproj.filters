@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SingleLinkedList">
+      <UniqueIdentifier>{2367f039-77d8-46b5-a801-4e974d82125b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SingleLinkedList">
+      <UniqueIdentifier>{f6035625-2001-4f68-b2b7-9bca3c6900ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DoubleLinkedList">
+      <UniqueIdentifier>{021300d2-cbed-44e2-9e51-b655eb495699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DoubleLinkedList">
+      <UniqueIdentifier>{51b5eb28-e917-4907-8ed8-192f87455eba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stack">
+      <UniqueIdentifier>{d3a5f610-596a-4fa7-b70a-e83ba0188087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stack">
+      <UniqueIdentifier>{af5e461e-46b7-404c-8500-13b26c49a42c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Queue">
+      <UniqueIdentifier>{5001f0fd-324f-4ad3-987b-9c0f620eeda3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Queue">
+      <UniqueIdentifier>{3661385b-e85b-4d58-b5b0-242630c3e13b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LinkedList\LinkedList\CNode.cpp">
+      <Filter>Source Files\SingleLinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LinkedList\LinkedList\SingleLinkedList.cpp">
+      <Filter>Source Files\SingleLinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="CDoubleNode.cpp">
+      <Filter>Source Files\DoubleLinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="DoublyLinkedList.cpp">
+      <Filter>Source Files\DoubleLinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="CStack.cpp">
+      <Filter>Source Files\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="CStackNode.cpp">
+      <Filter>Source Files\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="CQueue.cpp">
+      <Filter>Source Files\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="CQueueNode.cpp">
+      <Filter>Source Files\Queue</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\LinkedList\LinkedList\CNode.h">
+      <Filter>Header Files\SingleLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LinkedList\LinkedList\SingleLinkedList.h">
+      <Filter>Header Files\SingleLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="CDoubleNode.h">
+      <Filter>Header Files\DoubleLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="DoublyLinkedList.h">
+      <Filter>Header Files\DoubleLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="CStack.h">
+      <Filter>Header Files\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="CStackNode.h">
+      <Filter>Header Files\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="CQueue.h">
+      <Filter>Header Files\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="CQueueNode.h">
+      <Filter>Header Files\Queue</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
